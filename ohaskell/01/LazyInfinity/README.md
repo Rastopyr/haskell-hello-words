@@ -15,15 +15,15 @@ repeat "127.0.0.1"
 Take first two elements from __INFINITY__ list
 
 ```haskell
-take 2 (repeat 1000000000 "127.0.0.1")
+take 2 (repeat "127.0.0.1")
 ```
 
 ### Third
 
-And just print in
+And just print it
 
 ```haskell
-print (take 2 (repeat 1000000000 "127.0.0.1"))
+print (take 2 (repeat "127.0.0.1"))
 ```
 
 It return:
