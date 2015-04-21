@@ -1,2 +1,5 @@
+module Main where
 
-main = putStrLn "Hi, haskeller!"
+import Helpers
+
+main = putStrLn (hello "roman")
